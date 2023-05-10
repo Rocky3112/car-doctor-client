@@ -5,29 +5,29 @@ import img4 from '../../../assets/images/banner/4.jpg'
 const Banner = () => {
   return (
     <div>
-      <div className="carousel w-full">
+      <div className="carousel w-full h-[600px] my-5">
         <div id="item1" className="carousel-item w-full">
           <img
             src={img1}
-            className="w-full "
+            className="w-full mx-10 rounded-2xl"
           />
         </div>
         <div id="item2" className="carousel-item w-full">
           <img
             src={img2}
-            className="w-full"
+            className="w-full mx-10 rounded-2xl"
           />
         </div>
         <div id="item3" className="carousel-item w-full">
           <img
             src={img3}
-            className="w-full"
+            className="w-full mx-10 rounded-2xl"
           />
         </div>
         <div id="item4" className="carousel-item w-full">
           <img
             src={img4}
-            className="w-full"
+            className="w-full mx-10 rounded-2xl"
           />
         </div>
       </div>
