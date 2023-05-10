@@ -17,7 +17,7 @@ const Services = () => {
             <h1 className=" text-4xl font-bold">Our services Area</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores quibusdam fuga consequatur pariatur! Voluptatibus natus minima quam architecto nisi magnam? Voluptatum incidunt nostrum illo optio facere iste reiciendis sapiente rem?</p>
         </div>
-        <div>
+        <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {
                 services.map(service => <ServiceCard
                 key={service._id}
